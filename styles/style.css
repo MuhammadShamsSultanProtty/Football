@@ -1,0 +1,72 @@
+/* Removing browser deafult values  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*-------------------------
+ top styles 
+ ----------------------- */
+.top-container{
+  width: 100%;
+  background-color: #2D25A0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 131px;
+
+}
+.top-right-item{
+  display: flex;
+  flex-direction: column;
+}
+.top-title-text-area{
+  margin-top: 216px;
+  margin-left: 127px;
+  width: 485px;
+  height: 230px;
+  margin-bottom: 40px;
+}
+.top-title{
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+.watch-button{
+  text-decoration: none;
+  background-color: #E02C6D;
+  color: aliceblue;
+  width: 150px;
+  padding: 10px 24px;
+  margin-top: 18px;
+  margin-left: 156px;
+  font-size: 16px;
+}
+
+
+.watch-button:hover{
+  font-size: 18px;
+  border-radius: 40px;
+  transition:border-radius 1s ease-in-out,font-size 1s ease-in-out ;
+}
+
+
+.top-right-item img{
+width: 556.01px;
+height: 438px;
+margin-top: 153px;
+margin-bottom: 86px;
+}
+
+.top-right-item img:hover{
+  transform: scale(1.3);
+  transition: transform 2s ease-in-out;
+}
+
+
+/*------------
+ top style ends 
+ ---------- */
